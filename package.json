@@ -1,9 +1,19 @@
 {
   "name": "unclickable-button",
   "description": "A unclickable button",
-  "entryPoint": "main.js",
+  "exports": {
+    ".": {
+      "import": "./dist/main.es.js",
+      "require": "./dist/main.js"
+    }
+  },
+  "main": "./dist/main.cjs",
+  "module": "./dist/main.js",
+  "files": [
+    "dist"
+  ],
   "private": false,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "keywords": ["button", "unclickable", "running", "scapingbutton"],
   "author": "Marcelo Zapatta <marcelozapatta0@gmail.com> (https://marcelozapatta.github.io/portfolio)",
