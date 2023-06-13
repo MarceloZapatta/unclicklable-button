@@ -1,8 +1,13 @@
 {
-  "name": "unclicklable-button",
-  "private": true,
-  "version": "0.0.0",
+  "name": "unclickable-button",
+  "description": "A unclickable button",
+  "entryPoint": "main.js",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "keywords": ["button", "unclickable", "running", "scapingbutton"],
+  "author": "Marcelo Zapatta <marcelozapatta0@gmail.com> (https://marcelozapatta.github.io/portfolio)",
+  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
